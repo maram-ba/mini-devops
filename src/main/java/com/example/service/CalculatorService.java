@@ -1,13 +1,6 @@
 package com.example.service;
 
 public class CalculatorService {
-<<<<<<< HEAD
-    public int add(int a, int b) { return a + b; }
-    public int multiply(int a, int b) { return a * b; }
-    public int subtract(int a, int b) { return a - b; }
-    public int divide(int a, int b) {
-        if(b == 0) throw new IllegalArgumentException("Division par zéro impossible");
-=======
 
     public int add(int a, int b) {
         return a + b;
@@ -23,16 +16,11 @@ public class CalculatorService {
 
     public int divide(int a, int b) {
         if (b == 0) throw new IllegalArgumentException("Division par zéro impossible");
->>>>>>> feature/power
         return a / b;
     }
 
     public int modulo(int a, int b) {
-<<<<<<< HEAD
-        if(b == 0) throw new IllegalArgumentException("Modulo par zéro impossible");
-=======
         if (b == 0) throw new IllegalArgumentException("Modulo par zéro impossible");
->>>>>>> feature/power
         return a % b;
     }
 

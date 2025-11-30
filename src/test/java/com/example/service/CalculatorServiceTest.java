@@ -38,10 +38,6 @@ public class CalculatorServiceTest {
     @Test
     public void testPower() {
         CalculatorService calc = new CalculatorService();
-<<<<<<< HEAD
-        assertEquals(100, calc.power(10, 2));
-=======
-        assertEquals(8, calc.power(2, 3)); // 2^3 = 8
->>>>>>> feature/power
+        assertEquals(8, calc.power(2, 3));
     }
 }
